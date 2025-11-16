@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    padding: 10px 200px;
+
+    font-family: 'Rubik';
+}
+
+/* Logo */
+
+.logo {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #2D2D2D;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p {
+    color: #2D2D2D99;
+    font-size: 15px;
+}
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.messangers {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    gap: 8px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Exchange Rate */
+
+.exchange-rate {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.euro {
+    gap: 7px;
+    display: flex;
+}
+
+.zloty {
+    gap: 8px;
+    display: flex;
+}
+
+/* Active */
+
+.active {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.switch-lang {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.button-order {
+    background-color: #EA0C0C;
+    border-radius: 8px;
+    padding: 14px 24px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
